@@ -16,7 +16,7 @@
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="1000dp"
+        android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
     <ScrollView
@@ -41,7 +41,8 @@
                     android:hint="@string/prompt_email"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="false"
+                    android:text="123" />
 
             </android.support.design.widget.TextInputLayout>
 
